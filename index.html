@@ -1254,9 +1254,7 @@
       if (pct === 100) {
         clearInterval(barInterval);
         setTimeout(() => {
-          splash.style.opacity = '0';
-          splash.style.pointerEvents = 'none';
-          setTimeout(() => splash.remove(), 500);
+          window.location.href = 'https://play.google.com/store/apps/details?id=com.okoakashcheck.pestatuske';
         }, 300);
       }
     }, 25);
